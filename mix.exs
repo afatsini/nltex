@@ -32,10 +32,10 @@ defmodule NLTEx.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:scidata, "~> 0.1.2"},
-      {:nx,      "~> 0.1.0-dev", github: "elixir-nx/nx", sparse: "nx", override: true},
-      {:exla,    "~> 0.1.0-dev", github: "elixir-nx/nx", sparse: "exla", override: true},
-      {:ex_doc,  ">= 0.24.0", only: :dev, runtime: false},
+      {:scidata, "~> 0.1.5"},
+      {:nx,      "~> 0.5.1"},
+      {:exla,    "~> 0.5.1"},
+      {:ex_doc,  ">= 0.5.1"},
     ]
   end
 
